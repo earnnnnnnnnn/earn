@@ -1,13 +1,19 @@
 #include <iostream>
 using namespace std;
 int main()
-{	cout << "student code : 6606021631017"<< endl;
-	cout << "student name : Kochakorn Muengpho"<< endl;
-	cout << "    Division : Information Technoigy"<< endl;
-	cout << "        year : 1"<< endl;
-	cout << "        Room : RB"<< endl;
-	cout << "         Sex : female"<< endl;
-	cout << "         Age : 18"<< endl;
+{
+	float scroe;
+	//cout << "Enter number :";
+	//cin >> f;
+	//cout << "***********Output*************\n";
+	//c = (5.0/9.0)*(f-32);
+	//cout <<"Celcuis = "<< c << end;
+	//cout << c <<"celcuis is"<<((c>=30)?"Hot.":"cool.") << end;
+
+	cout << "Input c++ :";
+	cin >> scroe;
+	cout << "you " << ((scroe>=50)? "pass":"fall") << "\ with score 56;\n";
+
 	system("pause");
-	return(0);
+return(0);
 }
